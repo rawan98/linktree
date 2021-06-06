@@ -1,0 +1,49 @@
+html{
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(102,11,64,1) 66%, rgba(153,19,97,1) 100%);
+}
+.container{
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+}
+.header h1{
+    user-select: none;
+    margin: 0.5rem;
+    font-family: calibri light;
+    font-weight: lighter;
+    color: whitesmoke;
+    letter-spacing: 3px;
+}
+.social-media{
+    cursor: pointer;
+    letter-spacing: 3px;
+    margin: 0rem 1rem;
+    font-size: 2.5rem;
+    color: #e9d3e0;    
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    color: white; 
+}
+.btn{
+    cursor: pointer;
+    background: black;
+    width: 300px;
+    margin: 0.5rem;
+    align-self: center;
+    border-radius: 10px;
+    height: 80px;
+}
+.btn:hover{
+    color: #dbb7cc;
+}
+.btn p{
+    font-family: calibri light;
+    margin: 0.5rem;
+}
+.btn p:first-child{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
